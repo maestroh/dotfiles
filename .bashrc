@@ -161,8 +161,8 @@ fi
 shopt -s histappend
 
 # Make prompt informative
-# See:  http://www.ukuug.org/events/linux2003/papers/bash_tips/
-PS1="\[\033[0;34m\][\u@\h:\w]$\[\033[0m\]"
+# See:  http://www.cyberciti.biz/faq/bash-shell-change-the-color-of-my-shell-prompt-under-linux-or-unix/
+PS1="\e[1;33m[\u@\h:\w]$\e[m"
 
 ## -----------------------
 ## -- 2) Set up aliases --
